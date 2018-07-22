@@ -1,0 +1,78 @@
+{
+  "name": "css-urls",
+  "description": "et all URLs referenced from stylesheet files",
+  "homepage": "https://documentup.com/Kikobeats/css-urls",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "author": {
+    "email": "josefrancisco.verdu@gmail.com",
+    "name": "Kiko Beats",
+    "url": "https://kikobeats.com"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kikobeats/css-urls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kikobeats/css-urls/issues"
+  },
+  "keywords": [
+    "css",
+    "parser",
+    "url",
+    "urls"
+  ],
+  "dependencies": {
+    "@metascraper/helpers": "~3.11.8",
+    "aigle": "~1.12.0",
+    "css-url-parser": "~1.1.3",
+    "html-get": "~1.0.7"
+  },
+  "devDependencies": {
+    "ava": "latest",
+    "coveralls": "latest",
+    "finepack": "latest",
+    "git-authors-cli": "latest",
+    "git-dirty": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "nyc": "latest",
+    "prettier-standard": "latest",
+    "puppeteer": "latest",
+    "standard": "latest",
+    "standard-markdown": "latest"
+  },
+  "engines": {
+    "node": ">= 8"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls",
+    "lint": "standard-markdown && standard",
+    "precommit": "lint-staged",
+    "pretest": "npm run lint",
+    "pretty": "prettier-standard index.js {core,test,bin,scripts}/**/*.js --single-quote --print-width 100",
+    "test": "nyc ava"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "package.json": [
+      "finepack",
+      "git add"
+    ],
+    "*.js": [
+      "prettier-standard",
+      "git add"
+    ],
+    "*.md": [
+      "standard-markdown",
+      "git add"
+    ]
+  },
+  "contributors": [
+    "Kiko Beats <josefrancisco.verdu@gmail.com>"
+  ]
+}
