@@ -2,15 +2,18 @@
   "name": "css-urls",
   "description": "et all URLs referenced from stylesheet files",
   "homepage": "https://documentup.com/Kikobeats/css-urls",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
     "name": "Kiko Beats",
     "url": "https://kikobeats.com"
   },
-  "files": [
-    "src"
+  "contributors": [
+    {
+      "name": "Kiko Beats",
+      "email": "josefrancisco.verdu@gmail.com"
+    }
   ],
   "repository": {
     "type": "git",
@@ -48,6 +51,9 @@
   "engines": {
     "node": ">= 8"
   },
+  "files": [
+    "src"
+  ],
   "scripts": {
     "clean": "rm -rf node_modules",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
@@ -71,8 +77,5 @@
       "standard-markdown",
       "git add"
     ]
-  },
-  "contributors": [
-    "Kiko Beats <josefrancisco.verdu@gmail.com>"
-  ]
+  }
 }
