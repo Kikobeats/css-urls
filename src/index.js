@@ -9,6 +9,6 @@ module.exports = ({ text, url }) => {
 
   return parseCssUrls(text).map(url => ({
     url,
-    normalizeUrl: normalizeUrl(baseUrl, url)
+    normalizedUrl: normalizeUrl(baseUrl, url)
   }))
 }
