@@ -1,3 +1,12 @@
+<a name="2.0.3"></a>
+## 2.0.3 (2019-01-02)
+
+* Fix typo ([7b4e41c](https://github.com/Kikobeats/css-urls/commit/7b4e41c))
+* Release 2.0.2 ([2c9f578](https://github.com/Kikobeats/css-urls/commit/2c9f578))
+* Update snapshots ([017db49](https://github.com/Kikobeats/css-urls/commit/017db49))
+
+
+
 <a name="2.0.2"></a>
 ## 2.0.2 (2019-01-02)
 
