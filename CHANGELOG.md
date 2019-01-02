@@ -1,3 +1,10 @@
+<a name="2.0.2"></a>
+## 2.0.2 (2019-01-02)
+
+* Fix typo ([7b4e41c](https://github.com/Kikobeats/css-urls/commit/7b4e41c))
+
+
+
 <a name="2.0.1"></a>
 ## 2.0.1 (2019-01-02)
 
