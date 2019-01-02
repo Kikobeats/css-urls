@@ -8,7 +8,7 @@
 [![NPM Status](https://img.shields.io/npm/dm/css-urls.svg?style=flat-square)](https://www.npmjs.org/package/css-urls)
 [![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/Kikobeats)
 
-> Get all URLs referenced from stylesheet files
+> Get all URLs inside stylesheets
 
 ## Install
 
@@ -18,41 +18,38 @@ $ npm install css-urls --save
 
 ## Usage
 
-### From single URL
-
 ```js
-(async () => {
-  const { urls, meta } = await cssUrls('https://kikobeats.com/styles.css')
-})()
-```
+const got = require('got')
+const htmlUrls = require('html-urls')
 
-### From a collection of URLs
-
-```js
-(async () => {
-  const { urls, meta } = await cssUrls([
-    'https://elenatorro.github.io/build/assets/style.css',
-    'https://kikobeats.com/styles.css'
-  ])
+;(async () => {
+  const url = process.argv[2]
+  if (!url) throw new TypeError('Need to provide an url as first argument.')
+  const { body } = await got(url)
+  const links = cssUrls({ text: body, html })
+  links.forEach(({ url, normalizedUrl }) => console.log(normalizedUrl))
 })()
 ```
 
 ## API
 
-### cssUrls(url, [options])
+### cssUrls({url, text})
 
 #### url
 
 *Required*<br>
-Type: `string`|`array`
+Type: `string`
 
-The target URL(s) for extracting urls referenced
+The target URL(s) for extracting URLs referenced.
 
-#### options
+#### text
 
-Type: `object`
+*Required*<br>
+Type: `string`
 
-Use it for providing [html-get#options](https://github.com/Kikobeats/html-get#options).
+The
+
+The target URL(s) for extracting URLs referenced.
 
 ## Related
 
