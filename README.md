@@ -54,6 +54,11 @@ Type: `object`
 
 Use it for providing [html-get#options](https://github.com/Kikobeats/html-get#options).
 
+## Related
+
+- [html-urls](https://github.com/Kikobeats/html-urls) – Get all urls from a HTML markup.
+- [xml-urls](https://github.com/Kikobeats/xml-urls) – Get all urls from a Feed/Atom/RSS/Sitemap xml markup.
+
 ## License
 
 **css-urls** © [Kiko Beats](https://kikobeats.com), released under the [MIT](https://github.com/Kikobeats/css-urls/blob/master/LICENSE.md) License.<br>
