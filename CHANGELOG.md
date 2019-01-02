@@ -1,3 +1,10 @@
+<a name="2.0.1"></a>
+## 2.0.1 (2019-01-02)
+
+* Fix interface ([7fa296c](https://github.com/Kikobeats/css-urls/commit/7fa296c))
+
+
+
 <a name="2.0.0"></a>
 # 2.0.0 (2019-01-02)
 
