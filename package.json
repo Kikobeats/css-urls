@@ -29,7 +29,7 @@
     "urls"
   ],
   "dependencies": {
-    "@metascraper/helpers": "~4.8.5",
+    "@metascraper/helpers": "~5.10.5",
     "css-url-parser": "~1.1.3"
   },
   "devDependencies": {
