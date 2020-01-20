@@ -1,3 +1,10 @@
+## <small>2.0.4 (2020-01-20)</small>
+
+* build: update meta ([3d982f9](https://github.com/Kikobeats/css-urls/commit/3d982f9))
+* Bump @metascraper/helpers from 4.8.5 to 5.10.5 ([db4e078](https://github.com/Kikobeats/css-urls/commit/db4e078))
+
+
+
 <a name="2.0.3"></a>
 ## 2.0.3 (2019-01-02)
 
