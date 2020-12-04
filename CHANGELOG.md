@@ -1,3 +1,13 @@
+## <small>2.0.5 (2020-12-04)</small>
+
+* Bump @metascraper/helpers from 5.10.7 to 5.11.1 ([d4f4c06](https://github.com/Kikobeats/css-urls/commit/d4f4c06))
+* Bump @metascraper/helpers from 5.11.21 to 5.12.17 ([11e2890](https://github.com/Kikobeats/css-urls/commit/11e2890))
+* Bump @metascraper/helpers from 5.12.19 to 5.13.1 ([92d1215](https://github.com/Kikobeats/css-urls/commit/92d1215))
+* Bump @metascraper/helpers from 5.13.2 to 5.14.2 ([d8fbade](https://github.com/Kikobeats/css-urls/commit/d8fbade))
+* Bump @metascraper/helpers from 5.14.26 to 5.15.0 ([a3f764f](https://github.com/Kikobeats/css-urls/commit/a3f764f))
+
+
+
 ## <small>2.0.4 (2020-01-20)</small>
 
 * build: update meta ([3d982f9](https://github.com/Kikobeats/css-urls/commit/3d982f9))
