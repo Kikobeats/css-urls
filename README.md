@@ -6,7 +6,6 @@
 [![Dependency status](https://img.shields.io/david/Kikobeats/css-urls.svg?style=flat-square)](https://david-dm.org/Kikobeats/css-urls)
 [![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/css-urls.svg?style=flat-square)](https://david-dm.org/Kikobeats/css-urls#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/css-urls.svg?style=flat-square)](https://www.npmjs.org/package/css-urls)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/Kikobeats)
 
 > Get all URLs inside stylesheets
 
