@@ -19,7 +19,7 @@ $ npm install css-urls --save
 
 ```js
 const got = require('got')
-const htmlUrls = require('html-urls')
+const cssUrls = require('css-urls')
 
 ;(async () => {
   const url = process.argv[2]
