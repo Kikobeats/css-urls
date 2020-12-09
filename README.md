@@ -24,8 +24,8 @@ const htmlUrls = require('html-urls')
 ;(async () => {
   const url = process.argv[2]
   if (!url) throw new TypeError('Need to provide an url as first argument.')
-  const { body } = await got(url)
-  const links = cssUrls({ text: body, html })
+  const text = await got(url, { resolveBodyOnly: true })
+  const links = cssUrls({ text, url })
   links.forEach(({ url, normalizedUrl }) => console.log(normalizedUrl))
 })()
 ```
