@@ -1,10 +1,7 @@
 # css-urls
 
 ![Last version](https://img.shields.io/github/tag/Kikobeats/css-urls.svg?style=flat-square)
-[![Build Status](https://img.shields.io/travis/Kikobeats/css-urls/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/css-urls)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/css-urls.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/css-urls)
-[![Dependency status](https://img.shields.io/david/Kikobeats/css-urls.svg?style=flat-square)](https://david-dm.org/Kikobeats/css-urls)
-[![Dev Dependencies Status](https://img.shields.io/david/dev/Kikobeats/css-urls.svg?style=flat-square)](https://david-dm.org/Kikobeats/css-urls#info=devDependencies)
 [![NPM Status](https://img.shields.io/npm/dm/css-urls.svg?style=flat-square)](https://www.npmjs.org/package/css-urls)
 
 > Get all URLs inside stylesheets
