@@ -59,18 +59,18 @@
   "scripts": {
     "clean": "rm -rf node_modules",
     "contributors": "(git-authors-cli && finepack && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
-    "lint": "standard-markdown && standard",
+    "lint": "standard",
     "postrelease": "pnpm release:tags && pnpm release:github && (ci-publish || pnpm publish --access=public)",
     "pretest": "npm run lint",
     "pretty": "prettier-standard index.js {core,test,bin,scripts}/**/*.js --single-quote --print-width 100",
     "release": "pnpm release:version && pnpm release:changelog && pnpm release:commit && pnpm release:tag",
-    "release:github": "github-generate-release",
-    "release:tags": "git push origin HEAD:master --follow-tags",
-    "test": "c8 ava",
     "release:changelog": "conventional-changelog -p conventionalcommits -i CHANGELOG.md -s",
     "release:commit": "git add package.json CHANGELOG.md && git commit -m \"chore(release): $(node -p \"require('./package.json').version\")\"",
+    "release:github": "github-generate-release",
     "release:tag": "git tag -a v$(node -p \"require('./package.json').version\") -m \"v$(node -p \"require('./package.json').version\")\"",
-    "release:version": "standard-version --skip.changelog --skip.commit --skip.tag"
+    "release:tags": "git push origin HEAD:master --follow-tags",
+    "release:version": "standard-version --skip.changelog --skip.commit --skip.tag",
+    "test": "c8 ava"
   },
   "license": "MIT",
   "commitlint": {
