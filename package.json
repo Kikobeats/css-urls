@@ -24,10 +24,10 @@
     "urls"
   ],
   "dependencies": {
-    "@metascraper/helpers": "~5.49.1",
+    "@metascraper/helpers": "~5.49.24",
     "execall": "~2.0.0",
     "stable-regex": "~1.0.0",
-    "url-regex-safe": "~3.0.0"
+    "url-regex-safe": "~4.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
