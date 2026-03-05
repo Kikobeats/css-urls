@@ -2,7 +2,7 @@
   "name": "css-urls",
   "description": "Get all URLs inside stylesheets",
   "homepage": "https://github.com/Kikobeats/css-urls",
-  "version": "2.0.45",
+  "version": "2.0.46",
   "main": "src/index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",

@@ -1,3 +1,8 @@
+## 2.0.46 (2026-03-05)
+
+### Bug Fixes
+
+* **build:** drop standard-markdown ([5038cd5](https://github.com/Kikobeats/css-urls/commit/5038cd5e0a2199595a3ecc825445bb01a4ea58f5))
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
