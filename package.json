@@ -1,6 +1,6 @@
 {
   "name": "css-urls",
-  "description": "Get all URLs inside stylesheets",
+  "description": "Extract every URL referenced inside CSS stylesheets — url(), @import, and background sources.",
   "homepage": "https://github.com/Kikobeats/css-urls",
   "version": "2.0.50",
   "main": "src/index.js",
@@ -18,8 +18,14 @@
     "url": "https://github.com/Kikobeats/css-urls/issues"
   },
   "keywords": [
+    "assets",
+    "background",
     "css",
+    "extract",
+    "href",
+    "import",
     "parser",
+    "stylesheet",
     "url",
     "urls"
   ],
@@ -79,6 +85,7 @@
   },
   "nano-staged": {
     "*.js": [
+      "npx @kikobeats/prettier-standard",
       "standard --fix"
     ],
     "package.json": [
