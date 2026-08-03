@@ -30,7 +30,7 @@
     "urls"
   ],
   "dependencies": {
-    "@metascraper/helpers": "~5.52.0",
+    "@metascraper/helpers": "~5.53.0",
     "execall": "~2.0.0",
     "stable-regex": "~1.0.0",
     "url-regex-safe": "~4.0.0"
