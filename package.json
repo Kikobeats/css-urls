@@ -2,7 +2,7 @@
   "name": "css-urls",
   "description": "Extract every URL referenced inside CSS stylesheets — url(), @import, and background sources.",
   "homepage": "https://github.com/Kikobeats/css-urls",
-  "version": "2.0.54",
+  "version": "2.0.55",
   "main": "src/index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
