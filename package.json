@@ -42,6 +42,7 @@
     "c8": "latest",
     "ci-publish": "latest",
     "conventional-changelog": "latest",
+    "conventional-changelog-conventionalcommits": "latest",
     "finepack": "latest",
     "git-authors-cli": "latest",
     "github-generate-release": "latest",
